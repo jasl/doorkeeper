@@ -1,0 +1,12 @@
+development:
+  sessions:
+    default:
+      database: doorkeeper-mongoid4-development
+      hosts:
+        - localhost:27017
+test:
+  sessions:
+    default:
+      database: doorkeeper-mongoid4-test
+      hosts:
+        - localhost:27017

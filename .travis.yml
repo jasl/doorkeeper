@@ -13,9 +13,11 @@ env:
   - rails=4.1.0.beta1
   - orm=mongoid2
   - orm=mongoid3
+  - orm=mongoid4
   - orm=mongo_mapper
 services:
   - mongodb
 matrix:
   allow_failures:
     - env: orm=mongoid2
+    - env: orm=mongoid4
